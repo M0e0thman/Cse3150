@@ -1,0 +1,4 @@
+cd into the correct directory Cse3150/LAB1
+compile the files running the command  g++ unit_test_prefix_sum.cpp prefix_sum.cpp
+Show test state by runiing the prompt  ./a.out
+current upload has 7 diffrent unit tests 
