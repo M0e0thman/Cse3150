@@ -1,0 +1,4 @@
+cd into e1 directory 
+compile with  g++ linked_list.cpp unit_test_list.cpp
+run command ./a.out to show the passed and failed tests
+
