@@ -1,7 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 
 #include "doctest.h"
-#include "scrambler.h"
+#include "fisher.h"
 
 int nums_0[] = {};
 int nums_1[] = {-5};
