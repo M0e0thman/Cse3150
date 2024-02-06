@@ -12,12 +12,13 @@ void swap (int *a, int *b)
 }
 
 void fisher_yates(int array[], const int length){
-        srand(time(NULL));
-        for(int i = 0; i < length -1; i++){
-                int random_location = rand()  % (length-i);
-                swap(& array[i], & array[random_location + i]);
-        }
+    srand(time(NULL));
+    for(int i = 0; i < length; i++){
+        int random_location = rand() % (length - i) + i;  // Corrected line
+        swap(&array[i], &array[random_location]);
+    }
 }
+
 
 int prefix_sum(int array[], int last){
     int sum = 0;
