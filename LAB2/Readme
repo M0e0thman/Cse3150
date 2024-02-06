@@ -1,0 +1,18 @@
+First cd into the LAB2 directory
+
+Next comple the files with g++ fisher.cpp main_parent.cpp
+
+Enter the command ./a.out to run the simulation 
+
+Simulation consists of two promts the user must enter, and then an output will be provided.
+  Example:
+  Enter number of runs: 1
+  Enter size: 2
+  non positive: 0
+  non negative: 1
+  non-positive=: 0
+  non-negative=: 1
+
+Finally to test the unit tests first comple these two files: g++ -std=c++11 fisher.cpp unit_tests_yates.cpp
+
+Again run ./a.out to see the queue of tests 
