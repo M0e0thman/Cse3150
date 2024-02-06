@@ -1,5 +1,5 @@
-#ifndef __SCRAMBLER_H
-#define __SCRAMBLER_H
+#ifndef __fisher_H
+#define __fisher_H
 
 
 int prefix_sum(int array[], int last); 
