@@ -1,0 +1,6 @@
+Cd into the e005 directory 
+compile and show test cases with g++ -std=c++11 stack_unit_tests.cpp stack_1.cpp -o my_tests
+./my_tests
+
+compile file_.io and with g++ file_io.cpp stack_1.cpp -o ./a.out  
+then use ./a.out to show result 
