@@ -1,0 +1,6 @@
+To compile cd into Lab3
+then g++ -arch arm64 -c linked_list.cpp -o linked_list.o                      
+then g++ -arch arm64 -c linked_list_unit_test.cpp -o linked_list_unit_test.o    
+then g++ -arch arm64 -c main.cpp -o main.o                                      
+then g++ -arch arm64 linked_list.o linked_list_unit_test.o main.o -o my_program
+to show output run ./my_program
