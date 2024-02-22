@@ -1,0 +1,7 @@
+cd into the Lab4 folder 
+
+compile the program with g++ -std=c++11 well_balanced.cpp main.cpp -o my_program 
+to show output use command ./my_program 
+
+to compile the unit tests use g++ -std=c++11 well_balanced.cpp well_balanced_test.cpp -o test_well_balanced
+to show out put of tests use command ./test_well_balanced 
