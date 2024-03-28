@@ -1,0 +1,2 @@
+First compile the file using g++ -std=c++11 cos_distance.cpp -o cos_distance
+Then present the data using ./cos_distance
