@@ -1,0 +1,3 @@
+To compile the run g++ -o HybridVehicleHierarchy HybridVehicleHierarchy.cpp
+and then to show output run ./HybridVehicleHierarchy
+Same for the testcases 
