@@ -1,0 +1,6 @@
+To compile run g++ -std=c++11 -c matrix.cpp -o matrix.o  
+then show output with ./matrix 
+enter the number of nodes 
+
+To compile tests cases run  g++ -std=c++11 matrix.test.cpp matrix.test.cpp  -o test_cases
+and  to show out put ./test_cases
